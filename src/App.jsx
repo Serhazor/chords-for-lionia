@@ -231,7 +231,7 @@ const App = () => {
                 onClick={reset}
                 className="px-6 py-3 rounded-xl bg-amber-100 hover:bg-amber-200 text-amber-900 font-semibold text-sm uppercase tracking-wide transition-all duration-300 shadow-md hover:shadow-lg"
               >
-                Reset to Original
+                ВЕРНУТЬ ОРИГИНАЛ
               </button>
             </div>
           )}
@@ -245,7 +245,7 @@ const App = () => {
                 </h2>
                 {semitones !== 0 && (
                   <span className="text-sm font-semibold text-orange-600 bg-orange-100 px-3 py-1 rounded-full">
-                    {semitones > 0 ? `+${semitones}` : semitones} semitones
+                    {semitones > 0 ? `+${semitones}` : semitones} полутона
                   </span>
                 )}
               </div>
