@@ -169,10 +169,10 @@ const App = () => {
         <div className="text-center mb-8 sm:mb-12 fade-in-up">
           <h1 className="text-5xl sm:text-7xl font-bold mb-3 title-gradient" 
               style={{ fontFamily: "'DM Serif Display', serif" }}>
-            Transpose
+            Трасаккорды
           </h1>
           <p className="text-amber-800 text-lg sm:text-xl font-semibold">
-            Shift chords up or down with ease
+            Аккорды, которые раньше были нотами
           </p>
         </div>
 
@@ -183,7 +183,7 @@ const App = () => {
           {/* Input Section */}
           <div className="mb-8">
             <label className="block text-sm font-bold text-amber-900 mb-3 uppercase tracking-wide">
-              Enter Chords (comma-separated)
+              Напиши (через запятую) аккорды (например: Am, F, C, G)
             </label>
             <textarea
               value={inputChords}
@@ -211,7 +211,7 @@ const App = () => {
                 {semitones > 0 ? '+' : ''}{semitones}
               </div>
               <div className="text-sm font-semibold text-amber-700 uppercase tracking-wide">
-                Semitones
+                Полутона
               </div>
             </div>
             
@@ -241,7 +241,7 @@ const App = () => {
             <div>
               <div className="flex items-center justify-between mb-4">
                 <h2 className="text-xl font-bold text-amber-900 uppercase tracking-wide">
-                  {semitones === 0 ? 'Original Chords' : 'Transposed Chords'}
+                  {semitones === 0 ? 'Оригинальные аккорды' : 'В новой тональности'}
                 </h2>
                 {semitones !== 0 && (
                   <span className="text-sm font-semibold text-orange-600 bg-orange-100 px-3 py-1 rounded-full">
@@ -273,7 +273,7 @@ const App = () => {
         {/* Footer */}
         <div className="text-center mt-8 text-amber-700 text-sm font-medium fade-in-up" 
              style={{ animationDelay: '0.2s' }}>
-          Perfect for guitarists, pianists, and all musicians
+          Идеально для начинающих, потом уже будет проще...
         </div>
       </div>
     </div>
