@@ -169,7 +169,7 @@ const App = () => {
         <div className="text-center mb-8 sm:mb-12 fade-in-up">
           <h1 className="text-5xl sm:text-7xl font-bold mb-3 title-gradient" 
               style={{ fontFamily: "'DM Serif Display', serif" }}>
-            Трасаккорды
+            Трансаккорды
           </h1>
           <p className="text-amber-800 text-lg sm:text-xl font-semibold">
             Аккорды, которые раньше были нотами
